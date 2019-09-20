@@ -1,0 +1,16 @@
+<h1>Examples:</h1>
+<ol type="1">
+    <li><strong @i18n="Continue Title">Continue: </strong>{{continueMessage}}</li>
+    <li><strong @i18n="New Message Title">New Message: </strong>{{newMessage}}</li>
+    <li><strong @i18n="Greeting Title">Greeting: </strong>{{greetingMessage('Meran')}}</li>
+    <li><strong @i18n="Remaining Emails Zero Title">Remaining Emails Zero: </strong>{{remainingEmailsMessage(0, 'Meran')}}</li>
+    <li><strong @i18n="Remaining Emails One Title">Remaining Emails One: </strong>{{remainingEmailsMessage(1, 'Meran')}}</li>
+    <li><strong @i18n="Remaining Emails Many Title">Remaining Emails Many: </strong>{{remainingEmailsMessage(42, 'Meran')}}</li>
+    <li><strong @i18n="Not Online Female Title">Not Online Female: </strong>{{notOnlineMessage('Meran', 'female')}}</li>
+    <li><strong @i18n="Not Online Male Title">Not Online Male: </strong>{{notOnlineMessage('Yuval', 'female')}}</li>
+    <li><strong @i18n="Not Online Other Title">Not Online Other: </strong>{{notOnlineMessage('Mark', 'other')}}</li>
+</ol>
+<button type="button" (click)="setLocale('en-US')" @i18n="English Language Label">English</button>
+<button type="button" (click)="setLocale('es-PA')" @i18n="Spanish Language Label">Spanish</button>
+<input type="text" placeholder="Name" @i18n:placeholder="Place holder text on input for writing name.">
+

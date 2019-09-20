@@ -1,0 +1,123 @@
+{
+  "@@locale": "es",
+  "continueMessage": "Presione cualquier tecla para continuar",
+  "@continueMessage": {
+    "description": "Explained that we will not proceed further until the user presses a key",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newMessage": "Este es un mensaje de prueba",
+  "@newMessage": {
+    "description": "This is a new message description",
+    "type": "text",
+    "placeholders": {}
+  },
+  "greetingMessage": "Hello {name}!",
+  "@greetingMessage": {
+    "description": "Greet the user as they first open the application",
+    "type": "text",
+    "placeholders": {
+      "name": {
+        "example": "Emily"
+      }
+    }
+  },
+  "remainingEmailsMessage": "{howMany, plural, =0 {No quedan correos electrónicos para {userName} .} =1 {Queda {howMany} correo electrónico para {userName} .} other {Quedan {howMany} correos electrónicos para {userName} .}}",
+  "@remainingEmailsMessage": {
+    "description": "How many emails remain after archiving.",
+    "type": "text",
+    "placeholders": {
+      "howMany": {
+        "example": "42"
+      },
+      "userName": {
+        "example": "Fred"
+      }
+    }
+  },
+  "notOnlineMessage": "{userGender, select, female {{userName} no está disponible porque no está en línea.} male {{userName} no está disponible porque no está en línea.} other {{userName} no está disponible porque no están en línea}}",
+  "@notOnlineMessage": {
+    "description": "The user is not available to hangout.",
+    "type": "text",
+    "placeholders": {
+      "userName": {
+        "example": "Alice"
+      },
+      "userGender": {
+        "example": "female"
+      }
+    }
+  },
+  "Continue:": "Continuar:",
+  "@Continue:": {
+    "description": "Continue Title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "New Message:": "Nuevo Mensaje:",
+  "@New Message:": {
+    "description": "New Message Title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "Greeting:": "Saludos:",
+  "@Greeting:": {
+    "description": "Greeting Title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "Remaining Emails Zero:": "Quedan 0 correos:",
+  "@Remaining Emails Zero:": {
+    "description": "Remaining Emails Zero Title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "Remaining Emails One:": "Queda 1 correo:",
+  "@Remaining Emails One:": {
+    "description": "Remaining Emails One Title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "Remaining Emails Many:": "Quedan muchos correos:",
+  "@Remaining Emails Many:": {
+    "description": "Remaining Emails Many Title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "Not Online Female:": "Femenino Fuera de Linea:",
+  "@Not Online Female:": {
+    "description": "Not Online Female Title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "Not Online Male:": "Masculino Fuera de Linea:",
+  "@Not Online Male:": {
+    "description": "Not Online Male Title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "Not Online Other:": "Otros Fuera de Linea:",
+  "@Not Online Other:": {
+    "description": "Not Online Other Title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "English": "Ingles",
+  "@English": {
+    "description": "English Language Label",
+    "type": "text",
+    "placeholders": {}
+  },
+  "Spanish": "Español",
+  "@Spanish": {
+    "description": "Spanish Language Label",
+    "type": "text",
+    "placeholders": {}
+  },
+  "Name": "Nombre",
+  "@Name": {
+    "description": "Place holder text on input for writing name.",
+    "type": "text",
+    "placeholders": {}
+  }
+}
